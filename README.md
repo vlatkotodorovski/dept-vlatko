@@ -1,4 +1,4 @@
-LIVE VERSION AVAILABLE AT
+LIVE VERSION AVAILABLE AT https://nervous-minsky-843721.netlify.app/
 
 To run this project on your local machine first you need to:
 
