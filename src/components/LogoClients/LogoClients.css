@@ -1,0 +1,61 @@
+.logo-container {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logos-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 78%;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 15.5rem;
+  height: 7.875rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo-title {
+  flex: 1;
+  align-self: center;
+  text-align: center;
+  color: #0e0e0e;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 0.76667;
+  padding: 2rem;
+}
+
+.logo-text {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-text {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  .logos-content {
+    max-width: initial;
+    width: 100%;
+  }
+
+  .logo {
+    width: 10.5rem;
+    height: 7.875rem;
+    background-size: cover;
+    background-position: center;
+  }
+}

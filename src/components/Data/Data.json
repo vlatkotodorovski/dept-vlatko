@@ -1,0 +1,216 @@
+[
+    {
+      "name": "bol.com",
+      "image": "images/bolcom.png",
+      "title": "A summer island in the Netherlands",
+      "categories": [
+        "technology",
+        "strategy",
+        "design"
+      ],
+      "industries": [
+        "food",
+        "education",
+        "fashion"
+      ]
+    },
+    {
+        "name": "kempen",
+        "image": "images/kempen.png",
+        "title": "Not some average banking website",
+        "categories": [
+          "banking",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "b2b",
+          "fashion",
+          "public service"
+        ]
+      },
+    {
+      "name": "Philips",
+      "image": "images/philips.png",
+      "title": "Beautiful design meets innovative technology",
+      "categories": [
+        "design",
+        "media",
+        "marketing"
+      ],
+      "industries": [
+        "banking",
+        "travel",
+        "health"
+      ]
+    },
+    {
+      "name": "Gemeentemuseum",
+      "image": "images/gemeentemuseum.png",
+      "title": "A 100 years of Mondriaan & De Stijl",
+      "categories": [
+        "mmmm",
+        "travel",
+        "commerce"
+      ],
+      "industries": [
+        "testtt",
+        "fashion",
+        "public service"
+      ]
+    },
+      {
+        "name": "Be Lighting",
+        "image": "images/lightning.png",
+        "title": "Delivering clarity on a global scale",
+        "categories": [
+          "wwww",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "b2b",
+          "fashion",
+          "public service"
+        ]
+      },
+      {
+        "name": "TUI",
+        "image": "images/tui.png",
+        "title": "Swipe to find your next holiday destination",
+        "categories": [
+          "banking",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "iiiii",
+          "fashion",
+          "public service"
+        ]
+      },
+      {
+        "name": "Chocomel",
+        "image": "images/chocomel.png",
+        "title": "A campaign for the limited edition letter packs",
+        "categories": [
+          "eeee",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "xxxx",
+          "fashion",
+          "public service"
+        ]
+      },
+      {
+        "name": "JBL",
+        "image": "images/jbl.png",
+        "title": "Live like a champion with Jerome Booteng",
+        "categories": [
+          "strategy",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "b2b",
+          "fashion",
+          "public service"
+        ]
+      },
+      {
+        "name": "ZALANDO",
+        "image": "images/zalando.png",
+        "title": "Innovative SEO and content strategy for Zalando",
+        "categories": [
+          "strategy",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "b2b",
+          "fashion",
+          "public service"
+        ]
+      },
+      {
+        "name": "Koninklijke Bibliotheek",
+        "image": "images/koninklijke-bibliotheek.png",
+        "title": "The search for the most influential book ever",
+        "categories": [
+          "strategy",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "zzzzzz",
+          "fashion",
+          "public service"
+        ]
+      },
+      {
+        "name": "MATTIJS TEN BRINK – CEO, TRANSAVIA",
+        "image": "images/koninklijke-bibliotheek.png",
+        "title": "“Dept helped us tell our story through a bold new identity and a robust online experience. To the tune of 60% growth in online bookings in just one month.”",
+        "list": "quote",
+        "categories": [
+          "x",
+          "y",
+          "z"
+        ],
+        "industries": [
+          "x",
+          "c",
+          "v"
+        ]
+      },
+      {
+        "name": "TestStyle",
+        "image": "images/florensis.png",
+        "title": "Rethinking the entire online ecosystem",
+        "list": "big",
+        "categories": [
+          "media",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "pppp",
+          "fashion",
+          "public service"
+        ]
+      },
+      {
+        "name": "TestSmall1",
+        "image": "images/florensis.png",
+        "title": "Rethinking the entire online ecosystem",
+        "list": "small",
+        "categories": [
+          "qqqq",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "pppp",
+          "fashion",
+          "public service"
+        ]
+      },
+      {
+        "name": "TestSmall2",
+        "image": "images/florensis.png",
+        "title": "Rethinking the entire online ecosystem",
+        "list": "small",
+        "categories": [
+          "qqqq",
+          "branding",
+          "commerce"
+        ],
+        "industries": [
+          "pppp",
+          "fashion",
+          "public service"
+        ]
+      }
+  ]

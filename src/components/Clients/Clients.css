@@ -1,0 +1,146 @@
+.clients-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.client {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-basis: 45%;
+  padding: 1rem;
+}
+
+.client h1 {
+  color: gray;
+  font-size: 1.2rem;
+  display: flex;
+  flex-basis: 100%;
+}
+.client h2 {
+  color: black;
+  display: flex;
+  flex-basis: 100%;
+  font-weight: 500;
+  line-height: 0.90909;
+  font-size: 2.5rem;
+}
+
+.view-case {
+  display: flex;
+  color: #1a18f7;
+  font-weight: 600;
+}
+
+.view-case a {
+  text-decoration: none;
+  color: #1a18f7;
+  animation: 0.2s ease;
+}
+
+.view-case p {
+  padding-right: 0.6rem;
+}
+
+.client img {
+  object-fit: cover;
+  height: 76%;
+  width: 100%;
+  max-height: 74%;
+  min-height: 60%;
+  transition: transform 0.2s ease;
+}
+
+.client:hover img {
+  transform: translateZ(0) scale(0.95);
+  transition-delay: 0.1s;
+}
+
+.client:hover a {
+  animation: moveArrowClient 0.5s ease-in-out forwards;
+}
+
+.big {
+  display: flex;
+  flex: 1;
+  flex-basis: 60%;
+}
+
+.small {
+  display: flex;
+  flex: 3;
+  height: 70%;
+}
+
+.small img {
+  display: none;
+}
+
+.quote {
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column-reverse;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid gray;
+  line-height: 4.3rem;
+}
+
+.quote h2 {
+  text-align: start;
+  line-height: 1.8rem;
+}
+
+.quote img {
+  display: none;
+}
+
+.quote > .view-case {
+  display: none;
+}
+
+@keyframes moveArrowClient {
+  0% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translate(12px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .client {
+    flex-basis: 100%;
+    max-height: 67vh;
+    min-height: initial;
+    padding-bottom: 3rem;
+  }
+
+  .client h1 {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .client h2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .view-case {
+    display: none;
+  }
+
+  .quote {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: initial;
+  }
+
+  .quote h2 {
+    text-align: start;
+    line-height: 1.8rem;
+  }
+}

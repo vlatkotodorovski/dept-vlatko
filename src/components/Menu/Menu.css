@@ -1,0 +1,161 @@
+.menu-container {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.menu-header {
+  display: flex;
+  min-height: 10vh;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  align-items: center;
+}
+
+.button-close {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+}
+
+.header-logo {
+  display: flex;
+  flex: 1 1 30rem;
+  align-self: center;
+  filter: invert(1);
+}
+
+.menu-main {
+  display: flex;
+}
+
+.menu-main-right {
+  display: flex;
+  flex: 1;
+}
+
+.menu-main-right ul {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-end;
+  list-style-type: none;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: normal;
+  padding-right: 1rem;
+  padding-top: 2rem;
+}
+
+.menu-main-right ul li {
+  display: flex;
+  flex: 1;
+}
+
+.hide {
+  display: none;
+}
+
+.menu-main-right ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  flex: 1;
+}
+
+.menu-main-right ul:hover li a {
+  color: #939393;
+  transition: 0.2s;
+}
+
+.menu-main-right ul li:hover a {
+  color: white;
+  transition: 0.2s;
+}
+
+.menu-main-right ul li p {
+  font-size: 2rem;
+  align-self: center;
+}
+
+.menu-main-right ul li:hover p {
+  color: white;
+  display: block;
+  animation: moveArrow 0.5s ease forwards;
+}
+
+.hide-global {
+  display: none;
+}
+
+.global-dropdown > button {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.global-dropdown ul {
+  list-style: none;
+}
+
+.menu-main-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
+.list-social-menu li {
+  list-style-type: none;
+}
+
+.list-social-menu li a {
+  list-style-type: none;
+  color: white;
+  color: white;
+  text-decoration: none;
+}
+
+.list-social-menu li:hover a {
+  color: gray;
+}
+
+@keyframes moveArrow {
+  0% {
+    transform: translate(-20px);
+  }
+  100% {
+    transform: translate(-5px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu-main-left {
+    display: none;
+  }
+
+  .menu-main-right ul li {
+    display: flex;
+    flex: 1 1;
+    border-bottom: 1px solid #a3a3a3;
+    text-align: end;
+    border-bottom-width: 100%;
+  }
+}
